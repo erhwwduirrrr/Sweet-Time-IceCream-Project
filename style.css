@@ -1,0 +1,51 @@
+/*
+Theme Name: Sweet Time Ice Cream Child
+Template: twentytwentyone
+*/
+
+/* --- 1. 隐藏 Twenty Twenty-One 自带的页眉和页脚 --- */
+#masthead, 
+#colophon, 
+.site-header, 
+.site-footer {
+    display: none !important;
+}
+
+/* --- 2. 你的原始样式 (已合并) --- */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+
+/* 头部导航 */
+header.custom-header { background-color: #ff6b8b; padding: 1rem 0; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 100%; z-index: 1000; }
+.navbar { display: flex; align-items: center; max-width: 1200px; margin: 0 auto; width: 100%; padding: 0 2rem; }
+.logo { margin-right: auto; }
+.logo img { height: 60px; width: auto; }
+.nav-links { display: flex; list-style: none; padding: 0; margin: 0 auto; }
+.nav-links li { margin-left: 1.5rem; }
+.nav-links a { color: white; text-decoration: none; font-weight: 500; font-size: 1.1rem; transition: color 0.3s; }
+.nav-links a:hover { color: #ffe066; }
+
+/* 主内容区 */
+.container { max-width: 1200px; margin: 2rem auto; padding: 0 2rem; min-height: 60vh; }
+h1 { color: #ff6b8b; margin-bottom: 1.5rem; font-size: 2.5rem; }
+h2 { color: #ff8e53; margin: 1rem 0; }
+
+/* 产品与卡片 */
+.product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem; }
+.product-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: transform 0.3s; text-align: center; }
+.product-card:hover { transform: translateY(-5px); }
+.product-card img { width: 100%; height: 200px; object-fit: cover; border-radius: 5px; margin-bottom: 1rem; }
+.product-price { color: #ff6b8b; font-weight: bold; font-size: 1.2rem; margin: 0.5rem 0; }
+.btn { display: inline-block; background: #ff6b8b; color: white; padding: 0.8rem 1.5rem; border: none; border-radius: 5px; text-decoration: none; cursor: pointer; transition: background 0.3s; }
+.btn:hover { background: #ff4757; }
+
+/* 表格与表单 */
+.customer-table { width: 100%; border-collapse: collapse; margin-top: 2rem; background: white; }
+.customer-table th, .customer-table td { padding: 1rem; text-align: left; border-bottom: 1px solid #ddd; }
+.customer-table th { background-color: #ffe0e9; color: #ff6b8b; }
+.form-group { margin-bottom: 1.5rem; }
+label { display: block; margin-bottom: 0.5rem; font-weight: 500; }
+input, textarea, select { width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem; }
+
+/* 页脚 */
+footer.custom-footer { background-color: #ff6b8b; color: white; text-align: center; padding: 1.5rem; margin-top: 3rem; }

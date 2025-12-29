@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Mango Flow Oreo Ice Cream",
+        "description": "Creamy mango ice cream swirled with Oreo cookie crumbs, topped with fresh mango chunks",
+        "price": 32,
+        "image": "image\/1.JPG"
+    },
+    {
+        "id": 2,
+        "name": "Belgian Chocolate Ice Cream",
+        "description": "Rich Belgian chocolate ice cream with dark chocolate shavings and fudge ripple",
+        "price": 32,
+        "image": "image\/2.JPG"
+    },
+    {
+        "id": 3,
+        "name": "Vanilla Bean Ice Cream",
+        "description": "Classic vanilla bean ice cream with real vanilla seeds and chocolate sauce",
+        "price": 35,
+        "image": "image\/3.JPG"
+    },
+    {
+        "id": 4,
+        "name": "Mango Passion Fruit Ice Cream",
+        "description": "Dual layer of mango and passion fruit sorbet with tropical fruit medley",
+        "price": 38,
+        "image": "image\/4.JPG"
+    },
+    {
+        "id": 5,
+        "name": "Salted Caramel Pecan Ice Cream",
+        "description": "Butter caramel ice cream with sea salt, toasted pecans and caramel drizzle",
+        "price": 32,
+        "image": "image\/5.JPG"
+    },
+    {
+        "id": 6,
+        "name": "Strawberry Cheesecake Ice Cream",
+        "description": "Cream cheese ice cream with strawberry compote and graham cracker crust",
+        "price": 32,
+        "image": "image\/6.JPG"
+    },
+    {
+        "id": 7,
+        "name": "Uji Matcha Ice Cream",
+        "description": "Authentic Uji matcha ice cream with red bean paste and mochi pieces",
+        "price": 32,
+        "image": "image\/7.JPG"
+    },
+    {
+        "id": 8,
+        "name": "Cookies and Cream Ice Cream",
+        "description": "Vanilla ice cream loaded with crushed chocolate sandwich cookies",
+        "price": 32,
+        "image": "image\/8.JPG"
+    },
+    {
+        "id": 9,
+        "name": "Christmas Tree Ice Cream",
+        "description": "A refreshing green blend of matcha and vanilla, adorned with sugar \"snowflakes\" and colored beads",
+        "price": 39.89999999999999857891452847979962825775146484375,
+        "image": "image\/9.JPG"
+    },
+    {
+        "id": 10,
+        "name": "Disney Limited Edition Mermaid Ice Cream",
+        "description": "A dreamy blue-to-purple gradient like an underwater secret, as if a fairytale sweet dream",
+        "price": 49.89999999999999857891452847979962825775146484375,
+        "image": "image\/10.JPG"
+    }
+]
